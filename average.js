@@ -1,7 +1,7 @@
 module.exports = {
     
     average(arrayWithNumbers){
-        let sum = 1
+        let sum = 0
         for(let i = 0; i < arrayWithNumbers.length; i++){
             sum += arrayWithNumbers[i]
         }
